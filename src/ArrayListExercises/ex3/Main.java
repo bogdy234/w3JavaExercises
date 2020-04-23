@@ -24,5 +24,11 @@ public class Main {
         list.set(0,x);
         System.out.println(list);
 
+        // sau
+        int y;
+        System.out.println("Alt element ce se doreste a fi introdus pe prima pozitie:");
+        y=sc.nextInt();
+        list.add(0,y);
+        System.out.println(list);
     }
 }
